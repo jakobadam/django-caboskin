@@ -1,10 +1,5 @@
 #
 
-Check out repo:
-```
-hg clone https://hg.cabo.dk/django-caboappskin caboappskin
-```
-
 Install deps:
 ```
 apt-get install nodejs nodejs-legacy npm
@@ -16,7 +11,7 @@ Update django settings file. In settings.py:
 
 INSTALLED_APPS = (
     'djangobower',
-    'caboappskin'
+    'caboskin'
 )
 
 BOWER_INSTALLED_APPS = (
