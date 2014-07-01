@@ -19,6 +19,8 @@
         <script src="{% static 'respond/dest/respond.min.js' %}"></script>
     <![endif]-->
 
+    <style>body { padding-top: 60px;}</style>
+
     {% block head %}{% endblock %}
   </head>
   <body>
@@ -48,9 +50,10 @@
 
     <div class="container">
       <div class="row">
-    {% block pre_body %}{% endblock %}
-
-    {% block body %}{% endblock %}
+	{% block pre_body %}{% endblock %}	
+      </div>
+      <div class="row">
+	{% block body %}{% endblock %}
       </div>
     </div>
 
