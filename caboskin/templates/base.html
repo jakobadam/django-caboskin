@@ -18,6 +18,7 @@
         <script src="{% static 'html5shiv/dist/html5shiv.min.js' %}"></script>
         <script src="{% static 'respond/dest/respond.min.js' %}"></script>
     <![endif]-->
+    <script src="{% static 'jquery/jquery.js' %}"></script>
 
     {% block head %}{% endblock %}
   </head>
@@ -56,7 +57,6 @@
 
     {% include '_footer.html' %}
 
-    <script src="{% static 'jquery/jquery.js' %}"></script>
     <script src="{% static 'bootstrap/dist/js/bootstrap.min.js' %}"></script>
 
     {% block scripts %}{% endblock %}
