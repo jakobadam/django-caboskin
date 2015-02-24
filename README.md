@@ -15,17 +15,17 @@ INSTALLED_APPS = (
 )
 
 BOWER_INSTALLED_APPS = (
-    'jquery#1.9',
-    'jquery-ui#1.10',
-    'bootstrap#3.1.0',
-    'Flat-UI#2.1.3',
+    'jquery#2.1',
+    'jquery-ui#1.11',
+    'bootstrap#3.3',
+    'flat-ui#2.2',
     'html5shiv',
     'respond'
 )
 
 STATICFILES_FINDERS = (
-    "django.contrib.staticfiles.finders.FileSystemFinder",
-    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     'djangobower.finders.BowerFinder',
     )
 
